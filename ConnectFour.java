@@ -142,6 +142,7 @@ public class ConnectFour {
 
         }
 
+        counter = 0; 
         // horizontal check
         // only columns will change from left to right
         for(int z = 0; z < array[row].length; z++){ // length of row could not matter they are all the same
